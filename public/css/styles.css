@@ -57,7 +57,7 @@ th:only-child{
 }
 
 
-#btn {
+button {
   border-radius: 10px;
   background-color: #6734D1; 
   border: none;
@@ -74,7 +74,7 @@ th:only-child{
   transition-duration: 0.4s;
 }
 
-#btn:hover {
+button:hover {
   background-color: #f2e4fd; 
   color: black;
 }
