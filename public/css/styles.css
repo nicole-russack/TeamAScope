@@ -57,7 +57,7 @@ th:only-child{
 }
 
 
-button {
+/* button {
   border-radius: 10px;
   background-color: #6734D1; 
   border: none;
@@ -72,12 +72,12 @@ button {
   display: inline-block;
   font-size: 25px;
   transition-duration: 0.4s;
-}
+} */
 
-button:hover {
+/* button:hover {
   background-color: #f2e4fd; 
   color: black;
-}
+} */
 
 body{
 
@@ -136,18 +136,37 @@ content{
 }
 
 .enterButton{
+    border-radius: 10px;
+  background-color: #6734D1; 
+  border: none;
+  color: white;
+  width:20%; 
+  margin: 30px;
+  height: 50px;
+  margin-left:40%; 
+  margin-right:40%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  transition-duration: 0.4s;
+    
   border-radius: 10px;
   background-color: #6734D1; /* Green */
   border: none;
   color: white;
   width:100%; 
-
   height: 50px;
   text-align: center;
   text-decoration: none;
   font-size: 25px;
   transition-duration: 0.4s;
 
+}
+
+.enterButton:hover {
+    background-color: #f2e4fd; 
+  color: black;
 }
 
 .addPoints{
@@ -170,6 +189,21 @@ content{
 }
 
 .dropbtn {
+    border-radius: 10px;
+  background-color: #6734D1; 
+  border: none;
+  color: white;
+  width:20%; 
+  margin: 30px;
+  height: 50px;
+  margin-left:40%; 
+  margin-right:40%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  transition-duration: 0.4s;
+    
   background-color: #6734D1;
   font-size: 16px;
   width: 70%;
@@ -178,7 +212,10 @@ content{
   cursor: pointer;
 }
 
-
+.dropbtn:hover {
+    background-color: #f2e4fd; 
+  color: black;
+}
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
@@ -209,6 +246,28 @@ content{
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.button {
+    border-radius: 10px;
+  background-color: #6734D1; 
+  border: none;
+  color: white;
+  width:20%; 
+  margin: 30px;
+  height: 50px;
+  margin-left:40%; 
+  margin-right:40%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+   background-color: #f2e4fd; 
+  color: black;   
 }
 
 /*Kyler's formatting */
