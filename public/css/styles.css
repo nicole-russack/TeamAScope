@@ -218,3 +218,55 @@ content{
   display: block;
 }
 
+/*Kyler's formatting */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+header {
+    height: 60%;
+    padding: 10px 10%;
+    border-radius: 40px;
+    margin: 15px 20px 0px;
+    background-color:#6734D1; 
+}
+
+.headerlogo {
+    cursor: pointer;
+    height: 8%;
+    width: 16%;
+    background-color:#6734D1; 
+    color: #fff;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    left: -11%;
+}
+
+.headerButtons {
+    float: right;
+    margin-right: 0px;
+}
+.headerbtn {
+    position:relative;
+    size-adjust: auto;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size:16px;
+    color: #edf0f1;
+    padding: 15px;
+    background-color: #9064dd;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 5px 10px ;
+    transition: all 0.2s ease 0s;
+}
+
+.eboardbtn {
+    position: relative;
+    size-adjust: auto;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size:16px;
+    color: #edf0f1;
+    padding: 15px;
