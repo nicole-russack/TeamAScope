@@ -9,7 +9,3 @@ express()
   .set('view engine', 'ejs')
   .get('/', (req, res) => res.render('pages/index'))
   .listen(PORT, () => console.log(`Listening on ${ PORT }`))
-
-app.get('/',function(req, res) {
-  res.sendFile(path.join(__dirname + '/views/pages/scopeCup.html')
-});
