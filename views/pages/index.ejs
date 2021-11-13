@@ -2,75 +2,7 @@
 <html>
 <head>
   <%- include ("../partials/header.ejs") %>
-</head>
-<div class ="headerDiv">
-            <header>
-                <img class="headerlogo" src="scope_logo.png" alt="logo">
-                <div class = headerButtons>
-                    <a class="btna"><button class="headerbtn">Lunch Buddies</button></a>
-                    <a class="btna" href  = "scopeCup.html"><button class="headerbtn">Scope Cup</button></a>
-                    <a class="btna"><button class="eboardbtn">E-Board</button></a>
-                </div>               
-            </header> 
-        </div>
-<body>
-<h1>Lunch Buddies</h1>
-<p><strong>Next Cycle By: <strong>Wednesday October 17, 2021</p>
-<table class = table >
-    <tr bgcolor= #6734D1>
-      <th >   Person 1  </th>
-      <th >   Person 2   </th>
-    </tr>
-    <tr>
-      <td>  Jady  </td>
-      <td>Nicole</td>
-    </tr>
-    <tr bgcolor = #F2E4FD >
-        <td>Jeffery</td>
-        <td>Moses</td>
-    </tr>
-    <tr >
-        <td>Moses</td>
-        <td>Jeffery</td>
-    </tr>
-    <tr bgcolor = #F2E4FD  >
-        <td>Ryan</td>
-        <td>Josh</td>
-    </tr>
-    <tr>
-        <td>Josh</td>
-        <td>Ryan</td>
-    </tr>
-    <tr bgcolor = #F2E4FD >
-        <td>Isabella</td>
-        <td>Julia</td>
-    </tr>
-    <tr>
-      <td>  Jady  </td>
-      <td>Nicole</td>
-    </tr>
-    <tr bgcolor = #F2E4FD >
-        <td>Jeffery</td>
-        <td>Moses</td>
-    </tr>
-    <tr >
-        <td>Moses</td>
-        <td>Jeffery</td>
-    </tr>
-    <tr bgcolor = #F2E4FD  >
-        <td>Ryan</td>
-        <td>Josh</td>
-    </tr>
-    <tr>
-        <td>Josh</td>
-        <td>Ryan</td>
-    </tr>
-    <tr bgcolor = #F2E4FD >
-        <td>Isabella</td>
-        <td>Julia</td>
-    </tr>
-  </table>
-  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
 		<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
 		<script type="module">
 			// Import the functions you need from the SDKs you need
@@ -147,6 +79,75 @@ function shuffleLunchBuddies() {
 				}
 			}
 		</script>  
+</head>
+<div class ="headerDiv">
+            <header>
+                <img class="headerlogo" src="scope_logo.png" alt="logo">
+                <div class = headerButtons>
+                    <a class="btna"><button class="headerbtn">Lunch Buddies</button></a>
+                    <a class="btna" href  = "scopeCup.html"><button class="headerbtn">Scope Cup</button></a>
+                    <a class="btna"><button class="eboardbtn">E-Board</button></a>
+                </div>               
+            </header> 
+        </div>
+<body>
+<h1>Lunch Buddies</h1>
+<p><strong>Next Cycle By: <strong>Wednesday October 17, 2021</p>
+<table class = table >
+    <tr bgcolor= #6734D1>
+      <th >   Person 1  </th>
+      <th >   Person 2   </th>
+    </tr>
+    <tr>
+      <td>  Jady  </td>
+      <td>Nicole</td>
+    </tr>
+    <tr bgcolor = #F2E4FD >
+        <td>Jeffery</td>
+        <td>Moses</td>
+    </tr>
+    <tr >
+        <td>Moses</td>
+        <td>Jeffery</td>
+    </tr>
+    <tr bgcolor = #F2E4FD  >
+        <td>Ryan</td>
+        <td>Josh</td>
+    </tr>
+    <tr>
+        <td>Josh</td>
+        <td>Ryan</td>
+    </tr>
+    <tr bgcolor = #F2E4FD >
+        <td>Isabella</td>
+        <td>Julia</td>
+    </tr>
+    <tr>
+      <td>  Jady  </td>
+      <td>Nicole</td>
+    </tr>
+    <tr bgcolor = #F2E4FD >
+        <td>Jeffery</td>
+        <td>Moses</td>
+    </tr>
+    <tr >
+        <td>Moses</td>
+        <td>Jeffery</td>
+    </tr>
+    <tr bgcolor = #F2E4FD  >
+        <td>Ryan</td>
+        <td>Josh</td>
+    </tr>
+    <tr>
+        <td>Josh</td>
+        <td>Ryan</td>
+    </tr>
+    <tr bgcolor = #F2E4FD >
+        <td>Isabella</td>
+        <td>Julia</td>
+    </tr>
+  </table>
+ 
   <button class = button onClick="shuffleLunchBuddies()">Shuffle</button>
 
 </body>
