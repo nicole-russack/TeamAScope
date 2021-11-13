@@ -263,3 +263,23 @@ header {
     font-size:16px;
     color: #edf0f1;
     padding: 15px;
+    background-color: #9064dd;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease 0s;
+}
+
+.headerbtn:hover {
+    background-color: white;
+    color: #6734D1;
+}
+
+.eboardbtn:hover {
+    background-color: #3B148B;
+    color: #fff;
+}
+
+.btna {
+    margin: 10px
+}
