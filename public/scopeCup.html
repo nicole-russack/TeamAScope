@@ -102,11 +102,11 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.4.1/firebase
 			createTeamsTable();
 	
 	let addBtn = document.createElement("button");
-                addBtn.classList.add("button");
+		addBtn.classList.add("button");
                 addBtn.innerHTML = "Add";
                 addBtn.onclick = function () {
                 	var team = document.getElementById("drops").value;
-				var points = document.getElementById("ptsAdded").value;
+				var points = Number(document.getElementById("ptsAdded").value);
 				// Get team
 				var docRef = db.collection("teams").doc(team);
 				docRef.get().then((doc) => {
@@ -118,13 +118,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.4.1/firebase
 				    console.log("Error getting team document:", error);
 				});
 			}
-			// Deletes all members from collection "members"
-			function removeAllMembers() {
-				db.collection("members").get().then((querySnapshot) => {
-				    querySnapshot.forEach((doc) => {
-				    	removeMember(doc.id);
-				    });
-				});
+			
                 }
                 // location.reload();
                 document.body.appendChild(addBtn);
