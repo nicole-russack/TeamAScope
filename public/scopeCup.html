@@ -108,7 +108,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.4.1/firebase
                 addBtn.innerHTML = "Add";
                 addBtn.onclick = function () {
                 	var team = document.getElementById("drops").value;
-				var points = document.getElementById("ptsAdded").value;
+				var points = parseInt(document.getElementById("ptsAdded").value);
 				// Get team
 				var docRef = db.collection("teams").doc(team);
 				docRef.get().then((doc) => {
