@@ -118,7 +118,13 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.4.1/firebase
 				    console.log("Error getting team document:", error);
 				});
 			}
-			
+			// Deletes all members from collection "members"
+			function removeAllMembers() {
+				db.collection("members").get().then((querySnapshot) => {
+				    querySnapshot.forEach((doc) => {
+				    	removeMember(doc.id);
+				    });
+				});
                 }
                 // location.reload();
                 document.body.appendChild(addBtn);
