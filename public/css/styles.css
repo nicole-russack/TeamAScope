@@ -99,9 +99,6 @@ content {
 .hi {
   padding: 20px;
   margin: 50px;
-  border: 4px solid #6734D1;
-  border-radius: 10px;
-  width:70%; 
   margin-left:15%; 
   margin-right:15%;
 }
@@ -140,10 +137,11 @@ content {
 }
 
 .pointsBox{
+  border-radius: 10px;
   width: 50%;
   text-align: center;
-  border-radius: 10px;
-  height: 40px; 
+  height: 50px; 
+  width:100%; 
 }
 
 .dropbtn {
