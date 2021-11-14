@@ -1,23 +1,50 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-table {
-  width: 50%;
-  border-collapse: collapse;
+
+.table{
+    width: 50%;
+    border-collapse: collapse;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width:70%; 
+    margin-left:15%; 
+    margin-right:15%;
+    padding-bottom:100px;
+ 
 }
 
-th, td {
+
+
+
+.th{
+  color: white;
   border: 1px solid black;
-  padding: 0.5rem;
+  padding: 10px;
   text-align: center
 }
 
-th {
-  color: white;
+
+.td{
+  color: black;
+  border: 1px solid black;
+  padding: 0.5rem;
+  text-align: center
+
 }
 
-td {
-  color: black;
+
+.evenTable{
+  background-color: #F2E4FD;
+ 
+}
+
+.oddTable{
+  background-color: white;
+}
+
+.headTable{
+  background-color: #6734D1;
 }
 
 
