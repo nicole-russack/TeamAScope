@@ -47,11 +47,13 @@
 				    team: team
 				})
 				.then(() => {
-				    console.log("Member document successfully added!");
-				})
-				.catch((error) => {
-				    console.error("Error writing member document: ", error);
-				});
+                    console.log("Member document successfully added!");
+                }).then(() => {
+                    location.reload();
+                })
+                .catch((error) => {
+                    console.error("Error writing member document: ", error);
+                });
 			}
           
           function createMembersTable() {
