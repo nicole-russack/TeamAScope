@@ -106,7 +106,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.4.1/firebase
                 addBtn.innerHTML = "Add";
                 addBtn.onclick = function () {
                 	var team = document.getElementById("drops").value;
-				var points = Number(document.getElementById("ptsAdded").value);
+				var points = document.getElementById("ptsAdded").value;
 				// Get team
 				var docRef = db.collection("teams").doc(team);
 				docRef.get().then((doc) => {
@@ -131,6 +131,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.4.1/firebase
 <div class = hi>
 <form class="form-inline">
   <div class = addPoints>
+    <button class = enterButton >Add </button>
     <div class="dropdown">
     <select name="drop" id="drops" class="drop">
       <option value="Jady">Jady</option>
