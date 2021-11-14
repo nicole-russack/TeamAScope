@@ -48,7 +48,17 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.4.1/firebase
 			firebase.initializeApp(firebaseConfig);
 			var db = firebase.firestore();
 
-
+	function setTeam(team, points) {
+				db.collection("teams").doc(team).set({
+				    points: points
+				})
+				.then(() => {
+				    console.log("Team document successfully added!");
+				})
+				.catch((error) => {
+				    console.error("Error writing team document: ", error);
+				});
+			}
 
       function createTeamsTable() {
 				let table = document.createElement('table');
