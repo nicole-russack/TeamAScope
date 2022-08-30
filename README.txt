@@ -1,4 +1,4 @@
-# Scopr Hackathon
+## Scope Hackathon
 Scope Hackathon 2021 Submission
 
 ## Inspiration
